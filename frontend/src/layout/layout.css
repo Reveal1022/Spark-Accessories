@@ -1,0 +1,39 @@
+* {
+  margin: 5px;
+}
+
+body {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  position: fixed;
+  width: 100vw;
+  z-index: 998;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.244); /* Adjust the opacity as needed */
+  z-index: 999; /* Ensure the overlay appears on top of other content */
+}
+
+.hero {
+  margin: 0;
+  padding: 0;
+  padding-top: 120px;
+}
+
+@media (max-width: 512px) {
+  .hero {
+    margin: 0;
+    padding: 0;
+    padding-top: 65px;
+  }
+}

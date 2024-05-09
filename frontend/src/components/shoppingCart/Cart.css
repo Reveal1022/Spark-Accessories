@@ -1,0 +1,122 @@
+@font-face {
+  font-family: sanserif;
+  src: url(/sanserif.ttf);
+}
+
+.cart {
+  top: 0;
+  min-width: 320px;
+  right: -120%;
+  position: fixed;
+  display: flex;
+  height: 100vh;
+  transition: 0.5s;
+  z-index: 1000;
+}
+
+.cart.active {
+  right: 0;
+}
+
+#cross {
+  background: none;
+  border: none;
+  height: 0;
+  color: #071d49;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+#cross:hover {
+  color: red;
+}
+
+.shoplist {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(47, 46, 46);
+  display: flex;
+  flex-direction: column;
+}
+
+.shoplist h3 {
+  font-family: friday;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.cartitems {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  padding: 0 15px;
+  overflow-y: scroll;
+}
+
+#itemImg img {
+  width: 100px;
+  border: 0.5px solid teal;
+}
+
+.cartitem {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#detail {
+  display: flex;
+  margin-left: 10px;
+  flex: 1;
+  gap: 5px;
+  flex-direction: column;
+  font-family: sanserif;
+  text-align: left;
+  font-size: 16px;
+}
+
+.counter {
+  border: 0.5px solid gainsboro;
+  width: fit-content;
+  margin-left: 15px;
+  padding: 5px 0;
+}
+
+.counter input {
+  width: 20px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  color: #2c2d2e;
+  padding: 0 15px;
+}
+
+.counter i {
+  font-size: 12px;
+}
+
+.cartitem button {
+  width: fit-content;
+  font-size: 15px;
+  background: transparent;
+  border: none;
+  color: rgb(47, 45, 45);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#removeBtn {
+  margin-top: 20px;
+  font-size: 11px;
+  color: #a39076;
+}
+
+#removeBtn:hover {
+  color: rgb(47, 45, 45);
+}

@@ -1,0 +1,8 @@
+.cosmetics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}

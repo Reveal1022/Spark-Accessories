@@ -1,0 +1,78 @@
+.slider {
+  position: relative;
+  margin: auto;
+  width: 700px;
+  height: 350px;
+  border: 1px solid gold;
+  box-shadow: 10px 10px 10px 10px rgba(220, 216, 216, 0.825);
+}
+
+.sliderop {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.sliderImages {
+  object-fit: cover;
+  height: 350px;
+  width: 350px;
+  height: auto;
+  transition: translate 0.5s ease-in-out;
+}
+
+.buttons {
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between; /* Spread the buttons out */
+  align-items: center;
+}
+
+.indexBtn {
+  position: absolute;
+  bottom: 10px;
+  height: 10px;
+  display: flex;
+  gap: 5px;
+  left: 45%;
+}
+
+.indexBtn button {
+  border: 0.25px solid white;
+  padding: 0;
+  width: 7px;
+  height: auto;
+  border-radius: 100%;
+  border: none;
+  background-color: rgba(45, 43, 43, 0.099);
+}
+
+.buttons button {
+  background-color: rgba(0, 0, 0, 0.055);
+  height: 100%;
+  border: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#next {
+  position: absolute;
+  right: -100%; /* Move the next button to the rightmost position */
+}
+
+#prev {
+  position: absolute;
+}
+
+.App {
+  background-color: peachpuff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

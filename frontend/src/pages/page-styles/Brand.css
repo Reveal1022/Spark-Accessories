@@ -1,0 +1,13 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+video {
+  width: 98vw;
+  align-items: center;
+}

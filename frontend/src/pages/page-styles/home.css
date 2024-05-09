@@ -1,0 +1,75 @@
+@font-face {
+  font-family: sansserif;
+  src: url(/sanserif.ttf);
+}
+
+.components {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  font-family: sansserif;
+  color: #071d49;
+  text-transform: uppercase;
+}
+
+.cosmeticsBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 990;
+}
+
+.cosBanner {
+  width: 99vw;
+}
+
+.cosmeticsBanner button {
+  font-size: 18px;
+  background: none;
+  border: 1px solid white;
+  color: darkolivegreen;
+  padding: 10px 50px;
+}
+
+.cosmeticsBanner button:hover {
+  background-color: pink;
+}
+
+.bottom_img {
+  width: 95vw;
+}
+
+.Section {
+  width: 90%;
+  margin: 50px 0;
+}
+
+#newSection {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.cosmeticLink {
+  position: absolute;
+  top: 65%;
+}
+
+@media (max-width: 670px) {
+  .cosmeticLink {
+    top: 100%;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+  }
+
+  .cosmeticLink button {
+    border: 0.5px solid rgb(45, 43, 43);
+    padding: 5px 50px;
+  }
+
+  .Section {
+    margin-top: 100px;
+  }
+}

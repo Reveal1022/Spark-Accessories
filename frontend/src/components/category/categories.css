@@ -1,0 +1,39 @@
+@font-face {
+  font-family: sansserif;
+  src: url(/sanserif.ttf);
+}
+
+.container {
+  font-family: sansserif;
+  font-size: 20px;
+  color: #071d49;
+  margin: 4rem 30px;
+  width: 90vw;
+}
+
+.category {
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.category img {
+  height: 390px;
+  width: auto;
+  box-shadow: 4px 4px rgba(214, 210, 210, 0.267);
+}
+
+.category ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  overflow-y: scroll;
+  width: 100%;
+  padding: 0;
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+.category ul li:hover {
+  text-decoration: underline;
+}

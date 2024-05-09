@@ -1,0 +1,107 @@
+@font-face {
+  font-family: newone;
+  src: url(/newone.ttf);
+}
+
+.sideBar {
+  top: 0;
+  left: -150%;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  height: 100vh;
+  background-color: #eff2f7;
+  text-align: center;
+  overflow-y: scroll;
+  position: fixed;
+  padding-top: 15px;
+  color: #071d49;
+  font-family: verdana;
+  text-transform: uppercase;
+  transition: ease-out 0.5s;
+  z-index: 1000;
+}
+
+.sideBar.active {
+  left: 0;
+}
+
+.bartop {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin: 5px 20px;
+}
+
+.bartop button {
+  border: none;
+  background: none;
+  align-self: flex-start;
+  padding: 0;
+}
+
+.logo2 {
+  position: absolute;
+  top: 25px;
+  border: 0.5px solid #282c35;
+  border-radius: 100%;
+  width: 50px;
+  align-self: center;
+  background-color: white;
+  animation: rotation 5s linear infinite;
+}
+
+.nav {
+  flex: 0.97;
+  margin-top: 20px;
+  text-align: left;
+  font-family: newone;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.nav li {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-bottom: 1px;
+  list-style: none;
+}
+
+.links {
+  font-size: 15px;
+}
+
+.barbottom {
+  display: flex;
+  color: #b69f79cd;
+  justify-content: center;
+  gap: 10%;
+  justify-self: flex-end;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #c9d4e5;
+}
+
+.links:hover {
+  font-size: 20px;
+}
+
+.icons:hover {
+  color: rgb(219, 81, 104);
+  border: 0.5px solid #282c35;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

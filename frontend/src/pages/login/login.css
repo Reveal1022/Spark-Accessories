@@ -1,0 +1,90 @@
+@font-face {
+  font-family: friday;
+  src: url(/Friday.otf);
+}
+
+.loginSignin {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 30px;
+  justify-content: center;
+  color: rgb(41, 36, 36);
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.loginSignin input {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-color: #e0e0e0;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.657);
+}
+
+.loginForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login_details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+#login_btn {
+  padding: 15px;
+  background-color: rgb(46, 41, 41);
+  border: 0.5px solid white;
+  color: white;
+  font-size: 17px;
+}
+
+.signInForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.signinDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+#signInBtn {
+  padding: 15px;
+  background-color: white;
+  border: 0.5px solid rgb(46, 41, 41);
+  font-size: 17px;
+  color: rgb(46, 41, 41);
+}
+
+.loginSignin {
+  font-family: friday;
+  font-size: 25px;
+}
+
+@media (max-width: 1160px) {
+  .loginSignin {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .loginForm {
+    margin-bottom: 70px;
+  }
+
+  .signInForm {
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+}

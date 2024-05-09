@@ -1,0 +1,83 @@
+@font-face {
+  font-family: sansserif;
+  src: url(/sanserif.ttf);
+}
+
+@font-face {
+  font-family: quick;
+  src: url(/quick.ttf);
+}
+
+.item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: quick;
+  color: #071d49;
+}
+
+.container-item {
+  width: 300px;
+}
+
+.addtoBag {
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 65px;
+  right: 10px;
+  position: absolute;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.825);
+  box-shadow: 2px 2px 20px rgba(46, 45, 45, 0.338);
+  border: 1px solid rgb(212, 209, 209);
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 17px;
+  color: #071d49;
+  transform: translate 0.3s;
+  text-align: center;
+}
+
+.addtoBag:hover {
+  transform: scale(1.2);
+  background-color: white;
+}
+
+.item img {
+  width: 100%;
+  border: 0.5px solid #f2ca46;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.item h3 {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  color: #071d49;
+  font-size: 13px;
+}
+
+#oldPrc {
+  text-decoration: line-through;
+  color: rgb(44, 42, 42);
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.item:hover .addtoBag {
+  visibility: visible;
+}
+
+.item:hover h3 {
+  text-decoration: underline;
+}
