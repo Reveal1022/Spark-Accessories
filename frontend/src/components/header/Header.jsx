@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 import { HiOutlineShoppingBag, HiOutlineBars3 } from "react-icons/hi2";
 import { LuUser2 } from "react-icons/lu";
 
-import Navigation from "./navigation/navigation";
+import Navigation from "./navigation/Navigation";
 import { Link } from "react-router-dom";
 import "./header.css";
 
