@@ -8,7 +8,7 @@ const CategoryView = ({ picture, description, heading }) => {
         <img src={picture} alt="Sorry Image Not Available" />
         <div className="desc_box">
           <div className="cat_desc">
-            <h3>{heading}</h3>
+            <h3 style={{ textTransform: "uppercase" }}>{heading}</h3>
             <p>{description}</p>
           </div>
         </div>

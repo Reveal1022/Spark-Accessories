@@ -12,6 +12,7 @@ import Brand from "./pages/Brand";
 import Shop from "./pages/Shop";
 import Newarrivals from "./pages/Newarrivals";
 import Trending from "./pages/Trending";
+import Category from "./pages/Category";
 import "./index.css";
 import Cosmetics from "./pages/Cosmetics";
 import Login from "./pages/login/Login";
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="new-arrivals" element={<Newarrivals />} />
       <Route path="collection" element={<Shop />} />
+      <Route path="category/:category" element={<Category />} />
       <Route path="trending" element={<Trending />} />
       <Route path="cosmetics" element={<Cosmetics />} />
       <Route path="brand" element={<Brand />} />

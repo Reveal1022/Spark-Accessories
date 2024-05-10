@@ -1,6 +1,6 @@
 import React from "react";
 import collection from "../assets/All_Collection/Data";
-
+import { useParams } from "react-router-dom";
 import Item from "../components/Item/Item";
 import "./page-styles/Shop.css";
 import CategoryView from "../components/Category_view/CategoryView";

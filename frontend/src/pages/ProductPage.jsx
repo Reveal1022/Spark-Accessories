@@ -6,6 +6,7 @@ import ProductDisplay from "../components/ProductDisplay/ProductDisplay.jsx";
 
 const ProductPage = () => {
   const { productId } = useParams();
+
   return (
     <div className="productDisplay">
       <ProductDisplay />
