@@ -201,7 +201,7 @@ let collection = [
   //cosmetics
 
   {
-    id: 1,
+    id: 111,
     name: "Matte Lipstick",
     category: "cosmetics",
     sub_category: "makeup",
@@ -214,7 +214,7 @@ let collection = [
     trending: true,
   },
   {
-    id: 2,
+    id: 212,
     name: "Eyeshadow Palette",
     category: "cosmetics",
     sub_category: "makeup",
@@ -226,7 +226,7 @@ let collection = [
     trending: false,
   },
   {
-    id: 3,
+    id: 233,
     name: "Foundation",
     category: "cosmetics",
     sub_category: "makeup",
@@ -238,7 +238,7 @@ let collection = [
     trending: true,
   },
   {
-    id: 4,
+    id: 234,
     name: "Mascara",
     category: "cosmetics",
     sub_category: "makeup",
@@ -253,7 +253,7 @@ let collection = [
 
   // Skincare
   {
-    id: 11,
+    id: 114,
     name: "Moisturizing Cream",
     category: "cosmetics",
     sub_category: "skincare",
@@ -265,7 +265,7 @@ let collection = [
     trending: true,
   },
   {
-    id: 12,
+    id: 142,
     name: "Facial Cleanser",
     category: "cosmetics",
     sub_category: "skincare",
@@ -277,7 +277,7 @@ let collection = [
     trending: false,
   },
   {
-    id: 13,
+    id: 135,
     name: "Anti-Aging Serum",
     category: "cosmetics",
     sub_category: "skincare",
@@ -289,7 +289,7 @@ let collection = [
     trending: true,
   },
   {
-    id: 14,
+    id: 124,
     name: "Sheet Mask Set",
     category: "cosmetics",
     sub_category: "skincare",
@@ -304,7 +304,7 @@ let collection = [
 
   // Haircare
   {
-    id: 21,
+    id: 241,
     name: "Repairing Shampoo",
     category: "cosmetics",
     sub_category: "haircare",
@@ -316,7 +316,7 @@ let collection = [
     trending: true,
   },
   {
-    id: 22,
+    id: 522,
     name: "Conditioning Hair Mask",
     category: "cosmetics",
     sub_category: "haircare",
@@ -328,7 +328,7 @@ let collection = [
     trending: false,
   },
   {
-    id: 23,
+    id: 2213,
     name: "Styling Gel",
     category: "cosmetics",
     sub_category: "haircare",
@@ -340,7 +340,7 @@ let collection = [
     trending: true,
   },
   {
-    id: 24,
+    id: 214,
     name: "Hair Oil",
     category: "cosmetics",
     sub_category: "haircare",
@@ -355,7 +355,7 @@ let collection = [
 
   // Fragrance
   {
-    id: 31,
+    id: 341,
     name: "Eau de Parfum",
     category: "cosmetics",
     sub_category: "fragrance",
@@ -367,7 +367,7 @@ let collection = [
     trending: true,
   },
   {
-    id: 32,
+    id: 312,
     name: "Cologne",
     category: "cosmetics",
     sub_category: "fragrance",
@@ -379,7 +379,7 @@ let collection = [
     trending: false,
   },
   {
-    id: 33,
+    id: 133,
     name: "Roll-On Perfume Oil",
     category: "cosmetics",
     sub_category: "rollon",
@@ -391,7 +391,7 @@ let collection = [
     trending: true,
   },
   {
-    id: 34,
+    id: 343,
     name: "Body Mist",
     category: "cosmetics",
     sub_category: "fragrance",

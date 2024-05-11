@@ -26,17 +26,42 @@
 
 .searchbox {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 75px;
   height: 100%;
   background-color: white;
+  padding: 0 20px;
+}
+
+.searchbox h3 {
+  font-family: garbata;
+  color: rgb(40, 39, 39);
+  padding: 5px 0;
+}
+
+.searchBar {
+  display: flex;
+  background-color: white;
+}
+
+.searchResult {
+  width: 100%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  overflow: scroll;
+}
+
+.noResults {
+  color: rgba(39, 37, 37, 0.645);
+  font-size: 20px;
 }
 
 .searchForm input {
   border: none;
-  padding-left: 10px;
+  border-bottom: 1px solid rgb(45, 44, 44);
   width: 100%;
-  margin-top: 20px;
   height: 50px;
   font-size: 20px;
   color: rgb(39, 37, 37);
@@ -51,4 +76,52 @@ input:focus {
   background: none;
   height: 50px;
   margin-top: 20px;
+}
+
+.sItemList {
+  width: 100%;
+  height: auto;
+}
+
+.sItem {
+  display: flex;
+  width: 100%;
+  font-family: sanserif;
+  color: rgb(39, 37, 37);
+  box-shadow: 0 5px 15px rgba(58, 57, 57, 0.065);
+  gap: 10px;
+}
+
+.sItem:hover {
+  scale: 1.1;
+}
+
+#sImage {
+  width: 30%;
+  height: 30%;
+  min-width: 100px;
+}
+
+.sDetail {
+  padding: 5px 0;
+}
+
+.sDetail span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.sDetail h4 {
+  font-size: 20px;
+}
+
+@media (max-width: 1150px) {
+  .searchResult {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .searchResult {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
