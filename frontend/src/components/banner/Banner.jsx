@@ -6,7 +6,6 @@ const Banner = ({}) => {
   return (
     <div className="banner">
       <div className="desc">
-        <h1>Accessories</h1>
         <p style={{ color: "#efe3b8" }}>
           Accessories You are looking for are here.
         </p>

@@ -116,7 +116,7 @@
 
 @media (min-width: 800px) {
   .banner {
-    background-image: url(accessory.png);
+    background-image: url(JewelleryBanner.png);
     flex-direction: column;
   }
 
@@ -139,8 +139,11 @@
   .image button {
     width: 250px;
     font-size: x-large;
-    color: #3d3c3c;
-    border-color: goldenrod;
+    color: white;
     margin-bottom: 4rem;
+    background-color: #7a4732;
+  }
+  .image button:hover {
+    background-color: #2d1c16;
   }
 }

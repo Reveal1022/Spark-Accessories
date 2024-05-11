@@ -23,7 +23,7 @@ const Navigation = () => {
                 textDecoration: isActive ? "underline" : "none",
                 fontWeight: isActive ? "normal" : "normal",
                 textTransform: isActive ? "uppercase" : "uppercase",
-                fontSize: isActive ? "14px" : "13px",
+                fontSize: isActive ? "12.5px" : "11.5px",
               };
             }}
           >
@@ -40,7 +40,7 @@ const Navigation = () => {
                 textDecoration: isActive ? "underline" : "none",
                 fontWeight: isActive ? "normal" : "normal",
                 textTransform: isActive ? "uppercase" : "uppercase",
-                fontSize: isActive ? "14px" : "13px",
+                fontSize: isActive ? "12.5px" : "11.5px",
               };
             }}
           >
@@ -57,7 +57,7 @@ const Navigation = () => {
                 textDecoration: isActive ? "underline" : "none",
                 fontWeight: isActive ? "normal" : "normal",
                 textTransform: isActive ? "uppercase" : "uppercase",
-                fontSize: isActive ? "14px" : "13px",
+                fontSize: isActive ? "12.5px" : "11.5px",
               };
             }}
           >
@@ -74,11 +74,28 @@ const Navigation = () => {
                 textDecoration: isActive ? "underline" : "none",
                 fontWeight: isActive ? "normal" : "normal",
                 textTransform: isActive ? "uppercase" : "uppercase",
-                fontSize: isActive ? "14px" : "13px",
+                fontSize: isActive ? "12.5px" : "11.5px",
               };
             }}
           >
             Cosmetics
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="accessories"
+            onClick={scrollToTop}
+            className="links"
+            style={({ isActive, isPending, isTransitioning }) => {
+              return {
+                textDecoration: isActive ? "underline" : "none",
+                fontWeight: isActive ? "normal" : "normal",
+                textTransform: isActive ? "uppercase" : "uppercase",
+                fontSize: isActive ? "12.5px" : "11.5px",
+              };
+            }}
+          >
+            Accessories
           </NavLink>
         </li>
         <li>
@@ -91,7 +108,7 @@ const Navigation = () => {
                 textDecoration: isActive ? "underline" : "none",
                 fontWeight: isActive ? "normal" : "normal",
                 textTransform: isActive ? "uppercase" : "uppercase",
-                fontSize: isActive ? "14px" : "13px",
+                fontSize: isActive ? "12.5px" : "11.5px",
               };
             }}
           >

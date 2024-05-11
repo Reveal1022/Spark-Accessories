@@ -34,9 +34,9 @@ function ProductDisplay() {
     <div className="myproductDetails">
       <div className="myproductImages">
         <img src={product.image} alt="" />
-        <img src={product.hoverImage} alt="" />
-        <img src={product.hoverImage} alt="" />
-        <img src={product.hoverImage} alt="" />
+        <img src={product.image} alt="" />
+        <img src={product.image} alt="" />
+        <img src={product.image} alt="" />
       </div>
 
       <div className="myDetails">

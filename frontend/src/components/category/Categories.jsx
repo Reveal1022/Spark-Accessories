@@ -45,10 +45,15 @@ const Categories = () => {
                 <strong>Rings</strong>
               </li>
             </Link>
-            <li>
-              <img src="others.jpeg" alt="" />
-              <strong>Accessories</strong>
-            </li>
+            <Link
+              to="accessories"
+              style={{ textDecoration: "none", color: "#071d49" }}
+            >
+              <li>
+                <img src="others.jpeg" alt="" />
+                <strong>Accessories</strong>
+              </li>
+            </Link>
           </ul>
         </div>
       </div>

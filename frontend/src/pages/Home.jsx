@@ -28,7 +28,7 @@ const Home = () => {
 
       <div className="cosmeticsBanner">
         <img
-          src="CosBanner.png"
+          src="cosmeticsBanner.png"
           alt="Sorry, no image found."
           className="cosBanner"
         />

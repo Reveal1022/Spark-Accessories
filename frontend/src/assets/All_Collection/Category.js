@@ -28,6 +28,12 @@ const categorie = [
     description:
       "Discover our range of earrings, from studs to dramatic diamond drops, few things are more essential than earrings. Browse our fine and demi-fine earrings for every occasion.",
   },
+  {
+    category: "Accessories",
+    image: eImage,
+    description:
+      "Discover our range of earrings, from studs to dramatic diamond drops, few things are more essential than earrings. Browse our fine and demi-fine earrings for every occasion.",
+  },
 ];
 
 export default categorie;

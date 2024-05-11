@@ -27,6 +27,12 @@ import perfume from "./Images/cosmetics/perfumeimage1.webp";
 import rollon from "./Images/cosmetics/rollon1.webp";
 import colonge from "./Images/cosmetics/colonge1.webp";
 import bodymist from "./Images/cosmetics/bodymist1.webp";
+import belt1 from "./Images/accessory/Belt.webp";
+import gloves1 from "./Images/accessory/gloves1.webp";
+import hat1 from "./Images/accessory/hat1.jpg";
+import scarf1 from "./Images/accessory/scarf1.webp";
+import sunglasses1 from "./Images/accessory/sunglasses.webp";
+import wallet1 from "./Images/accessory/wallet1.webp";
 
 let collection = [
   // Earrings
@@ -403,6 +409,80 @@ let collection = [
     trending: true,
   },
   // Add more fragrance products here...
+
+  //accessories
+  {
+    id: 1000,
+    name: "Leather Belt",
+    category: "accessories",
+    sub_category: "belts",
+    image: belt1,
+    description: "Classic leather belt for a stylish look",
+    new_price: 39.99,
+    old_price: 44.99,
+    newArrivals: false,
+    trending: true,
+  },
+  {
+    id: 1001,
+    name: "Aviator Sunglasses",
+    category: "accessories",
+    sub_category: "sunglasses",
+    image: sunglasses1,
+    description: "Iconic aviator sunglasses for a cool vibe",
+    new_price: 49.99,
+    old_price: 54.99,
+    newArrivals: true,
+    trending: false,
+  },
+  {
+    id: 1002,
+    name: "Leather Wallet",
+    category: "accessories",
+    sub_category: "wallets",
+    image: wallet1,
+    description: "Sleek leather wallet with multiple compartments",
+    new_price: 29.99,
+    old_price: 34.99,
+    newArrivals: false,
+    trending: true,
+  },
+  {
+    id: 1003,
+    name: "Silk Scarf",
+    category: "accessories",
+    sub_category: "scarves",
+    image: scarf1,
+    description: "Luxurious silk scarf for added elegance",
+    new_price: 19.99,
+    old_price: 24.99,
+    newArrivals: true,
+    trending: true,
+  },
+  {
+    id: 1004,
+    name: "Beanie Hat",
+    category: "accessories",
+    sub_category: "hats",
+    image: hat1,
+    description: "Warm and cozy beanie hat for cold days",
+    new_price: 14.99,
+    old_price: 19.99,
+    newArrivals: false,
+    trending: true,
+  },
+  {
+    id: 1005,
+    name: "Leather Gloves",
+    category: "accessories",
+    sub_category: "gloves",
+    image: gloves1,
+    description: "Stylish leather gloves for a sophisticated touch",
+    new_price: 34.99,
+    old_price: 39.99,
+    newArrivals: true,
+    trending: false,
+  },
 ];
 
 export default collection;
