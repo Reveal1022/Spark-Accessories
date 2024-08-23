@@ -1,10 +1,15 @@
 .slider {
+  display: flex;
+  flex-direction: column;
   position: relative;
   margin: auto;
-  width: 700px;
-  height: 350px;
+  width: 100%;
+  height: auto;
   border: 1px solid gold;
-  box-shadow: 10px 10px 10px 10px rgba(220, 216, 216, 0.825);
+}
+
+.slider:hover .buttons {
+  display: flex;
 }
 
 .sliderop {
@@ -16,29 +21,31 @@
 
 .sliderImages {
   object-fit: cover;
-  height: 350px;
-  width: 350px;
+  border-right: 0.5px solid white;
+  height: auto;
+  width: 50%;
   height: auto;
   transition: translate 0.5s ease-in-out;
 }
 
 .buttons {
-  height: 350px;
-  width: 350px;
+  height: 100%;
+  width: 100%;
   position: absolute;
   top: 0;
-  display: flex;
+  display: none;
   justify-content: space-between; /* Spread the buttons out */
   align-items: center;
 }
 
 .indexBtn {
   position: absolute;
-  bottom: 10px;
-  height: 10px;
   display: flex;
+  justify-content: center;
+  height: 10px;
+  width: 100%;
+  bottom: 5px;
   gap: 5px;
-  left: 45%;
 }
 
 .indexBtn button {
@@ -60,19 +67,17 @@
   cursor: pointer;
 }
 
-#next {
-  position: absolute;
-  right: -100%; /* Move the next button to the rightmost position */
-}
-
-#prev {
-  position: absolute;
-}
-
 .App {
   background-color: peachpuff;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 380px) {
+  .sliderImages {
+    width: 100%;
+    height: auto;
+  }
 }

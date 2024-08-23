@@ -6,6 +6,7 @@ import { LiaShippingFastSolid } from "react-icons/lia";
 import { GiPolarStar } from "react-icons/gi";
 import { MdPayment } from "react-icons/md";
 import { useCartContext } from "../../store/cart";
+import ImageSlider from "../ImageSlider/ImageSlider";
 
 function ProductDisplay() {
   const { product } = useContext(ProductContext);
@@ -30,6 +31,8 @@ function ProductDisplay() {
     }
   };
 
+  const Imageurls = [product.image, product.image, product.image];
+
   return (
     <div className="myproductDetails">
       <div className="myproductImages">
@@ -37,6 +40,10 @@ function ProductDisplay() {
         <img src={product.image} alt="" />
         <img src={product.image} alt="" />
         <img src={product.image} alt="" />
+      </div>
+
+      <div className="imageslider">
+        <ImageSlider Imageurls={Imageurls} />
       </div>
 
       <div className="myDetails">

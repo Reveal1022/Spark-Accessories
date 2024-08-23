@@ -5,9 +5,8 @@
 
 .loginSignin {
   display: flex;
-  flex-direction: row;
-  margin: 20px 30px;
   justify-content: center;
+  margin: 20px 30px;
   color: rgb(41, 36, 36);
   margin-top: 80px;
   margin-bottom: 100px;
@@ -24,8 +23,10 @@
 .loginForm {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  width: 100%;
+  width: 60%;
+  min-width: 360px;
 }
 
 .login_details {
@@ -44,11 +45,20 @@
   font-size: 17px;
 }
 
+.spans {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
 .signInForm {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  width: 100%;
+  width: 70%;
 }
 
 .signinDetails {
@@ -61,10 +71,10 @@
 
 #signInBtn {
   padding: 15px;
-  background-color: white;
-  border: 0.5px solid rgb(46, 41, 41);
+  background-color: rgb(46, 41, 41);
+  border: 0.5px white;
   font-size: 17px;
-  color: rgb(46, 41, 41);
+  color: white;
 }
 
 .loginSignin {

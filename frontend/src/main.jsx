@@ -16,6 +16,7 @@ import Category from "./pages/Category";
 import "./index.css";
 import Cosmetics from "./pages/Cosmetics";
 import Login from "./pages/login/Login";
+import SignIn from "./pages/login/SignIn";
 import { CartContextProvider } from "./store/cart";
 import Accessories from "./pages/Accessories";
 import ProductPage from "./pages/ProductPage";
@@ -33,6 +34,7 @@ const router = createBrowserRouter(
       <Route path="accessories" element={<Accessories />} />
       <Route path="brand" element={<Brand />} />
       <Route path="login" element={<Login />} />
+      <Route path="signIn" element={<SignIn />} />
       <Route path="productPage" element={<ProductPage />}>
         <Route path=":productId" element={<ProductPage />} />
       </Route>

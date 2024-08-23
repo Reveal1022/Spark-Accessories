@@ -1,8 +1,16 @@
 import React from "react";
-
+import axios from "axios";
+import { useState } from "react";
 import "./login.css";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const [firstName, setFirstName] = useState();
+  const [lastName, setLastName] = useState();
+  const [email, setEmail] = useState();
+  const [password, setPassword] = useState();
+  const navigate = useNavigate();
+
   return (
     <div className="loginSignin">
       <div className="loginForm">
@@ -10,18 +18,17 @@ const Login = () => {
         <div className="login_details">
           <input type="text" placeholder="Email" />
           <input type="password" placeholder="Password" />
+          <div className="spans">
+            <span
+              onClick={() => {
+                navigate("/signIn");
+              }}
+            >
+              Create Account?
+            </span>
+            <span>Forgot Password?</span>
+          </div>
           <button id="login_btn">Login</button>
-        </div>
-      </div>
-      <hr style={{ border: "0.5px solid #e0e0e0" }} />
-      <div className="signInForm">
-        <h3>Create An Account</h3>
-        <div className="signinDetails">
-          <input type="text" placeholder="First Name" />
-          <input type="text" placeholder="Last Name" />
-          <input type="text" placeholder="Email" />
-          <input type="text" placeholder="Password" />
-          <button id="signInBtn">Create</button>
         </div>
       </div>
     </div>

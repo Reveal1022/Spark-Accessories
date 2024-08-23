@@ -1,7 +1,7 @@
 .myproductDetails {
   display: flex;
   margin: 20px 10px;
-  padding: 20px 15px;
+  padding: 15px 0;
   color: #36454f;
   font-family: sansserif;
   gap: 10px;
@@ -94,14 +94,24 @@
   font-size: 20px;
 }
 
+.imageslider {
+  display: none;
+  width: auto;
+}
+
 @media (max-width: 790px) {
   .myproductDetails {
     flex-direction: column;
+    padding: 20px;
   }
 
   .myproductImages {
+    display: none;
+  }
+
+  .imageslider {
+    display: block;
     width: 100%;
-    grid-template-columns: repeat(2, 1fr);
   }
 
   .myDetails {
