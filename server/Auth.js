@@ -15,7 +15,7 @@ const SECRET_KEY = "chabitala";
 
 //register
 
-app.post("api/register", (req, res) => {
+app.post("/api/register", (req, res) => {
   const { firstName, lastName, email, password } = req.body;
 
   const hashedPassword = bcrypt.hashSync(password, 8);
@@ -25,7 +25,7 @@ app.post("api/register", (req, res) => {
   res.json({ message: "user registered successfully" });
 });
 
-app.post("api/login", (req, res) => {
+app.post("/api/login", (req, res) => {
   const { email, password } = req.body;
 
   const user = users.find((u) => u.email === email);
